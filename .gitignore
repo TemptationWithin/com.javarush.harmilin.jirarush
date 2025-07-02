@@ -1,0 +1,64 @@
+# ==== Java ====
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ==== Maven ====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+
+# ==== IntelliJ IDEA ====
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ==== VS Code ====
+.vscode/
+
+# ==== OS-specific ====
+.DS_Store
+Thumbs.db
+
+# ==== Logs ====
+logs/
+*.bak
+
+# ==== Environment ====
+.env
+*.env
+*.key
+*.pem
+*.crt
+
+# ==== Spring Boot ====
+src/main/resources/application.yaml
+application-*.yml
+application-*.properties
+*.yml~
+*.yml.tmp
+*.properties~
+
+# ==== Docker ====
+docker-compose.override.yml
+.docker/
+*.pid
+
+# ==== Test Reports ====
+/test-output/
+/surefire-reports/
+
+# ==== Backup and temp ====
+*.swp
+*.tmp
+*~
+*.orig
+*.rej
